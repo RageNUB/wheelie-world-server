@@ -1,6 +1,7 @@
 [
     {
       "toy_name": "Remote Control Car",
+      "img": "https://img.freepik.com/premium-photo/father-teaches-his-son-how-ride-radio-control-car_244784-1954.jpg?w=1060",
       "seller_name": "Toy Universe",
       "price": 29.99,
       "quantity": 25,
@@ -11,16 +12,18 @@
     },
     {
       "toy_name": "Pullback Racing Cars",
+      "img": "https://img.freepik.com/free-vector/flat-design-muscle-car-illustration_23-2149451349.jpg?w=996&t=st=1684413148~exp=1684413748~hmac=67d24cd1a59064eee2ad92865b8bafd854a95b011b747b638fd9b738dfcb2c29",
       "seller_name": "Toylandia",
       "price": 12.99,
       "quantity": 50,
       "rating": 4.0,
       "description": "Set of 4 pullback racing cars with sleek designs and smooth pullback action.",
       "category": "Cars",
-      "sub_category": "Pullback"
+      "sub_category": "Racing"
     },
     {
       "toy_name": "Construction Truck Set",
+      "img": "https://img.freepik.com/free-vector/flat-design-excavator-collection_52683-45870.jpg?w=996&t=st=1684413269~exp=1684413869~hmac=a96a486633bfa06006497cbbc874a45280a8e168eb74071e7a495383e2c21920",
       "seller_name": "Tiny Builders",
       "price": 19.99,
       "quantity": 18,
@@ -31,6 +34,7 @@
     },
     {
       "toy_name": "Monster Truck",
+      "img": "https://img.freepik.com/premium-vector/big-truck-monsters-hand-drawing-illustration_169137-1197.jpg?w=996",
       "seller_name": "Super Toys",
       "price": 34.99,
       "quantity": 10,
@@ -41,6 +45,7 @@
     },
     {
       "toy_name": "Formula Racing Car",
+      "img": "https://img.freepik.com/free-photo/3d-racing-car_1048-5051.jpg?w=1060&t=st=1684413377~exp=1684413977~hmac=0e4d0de835ed05fe151d95d3a9af32ac9dbd1bc181c446c597be90d5008c7cb0",
       "seller_name": "Speedster Toys",
       "price": 49.99,
       "quantity": 5,
@@ -51,6 +56,7 @@
     },
     {
       "toy_name": "Convertible Sports Car",
+      "img": "https://img.freepik.com/free-photo/car-with-blue-orange-taillight-word-maserati-side_1340-37769.jpg?w=996&t=st=1684413419~exp=1684414019~hmac=45f34b7e5f092ac404843584afa646a8b58d66ab3b36afbb4937059573db3af1",
       "seller_name": "Fun Wheels",
       "price": 24.99,
       "quantity": 12,
@@ -61,6 +67,7 @@
     },
     {
       "toy_name": "Off-Road Adventure Truck",
+      "img": "https://img.freepik.com/free-photo/green-gmc-sierra-pickup-truck-driving-dirt-road-with-mountains-background_1340-32497.jpg?w=996&t=st=1684413460~exp=1684414060~hmac=b6bb6677756c3557096a9d5c2eda6e6f864619661294f56a786de38118d38cc4",
       "seller_name": "Adventure Toys",
       "price": 39.99,
       "quantity": 8,
@@ -71,6 +78,7 @@
     },
     {
       "toy_name": "Race Track Playset",
+      "img": "https://img.freepik.com/free-vector/soap-box-derby-race-with-ducks-cartoon-character_1308-131391.jpg?w=1060&t=st=1684413546~exp=1684414146~hmac=d940e5f3d4ae9b4fd74a40b0c26fa50fffba5624a4afabcca63a17908648d26c",
       "seller_name": "TrackMaster",
       "price": 59.99,
       "quantity": 3,
@@ -81,6 +89,7 @@
     },
     {
       "toy_name": "Police Car Set",
+      "img": "https://img.freepik.com/free-vector/flat-set-various-color-police-cars-isolated-against-white-background-vector-illustration_1284-80318.jpg?w=1060&t=st=1684413582~exp=1684414182~hmac=8c7c789ec738dff6e6b5d155de218eda531dcdd1a25d6b20bf7f73c1ca7af575",
       "seller_name": "CopShop Toys",
       "price": 14.99,
       "quantity": 15,
@@ -91,6 +100,7 @@
     },
     {
       "toy_name": "Fire Truck",
+      "img": "https://img.freepik.com/premium-vector/cartoon-design-fire-truck-cars-set-flat-illustration-isolated-white-background_257455-4.jpg?w=996",
       "seller_name": "Rescue Heroes",
       "price": 19.99,
       "quantity": 20,
@@ -101,16 +111,18 @@
     },
     {
         "toy_name": "Race Car Launcher",
+        "img": "https://img.freepik.com/free-photo/3d-racing-car_1048-5051.jpg?w=1060&t=st=1684413663~exp=1684414263~hmac=0ff8351044c4d08647ad56f363c31addc1fa7f163ea18124fabb308709a9bf80",
         "seller_name": "Speed Masters",
         "price": 14.99,
         "quantity": 30,
         "rating": 4.7,
         "description": "A race car launcher set with a starting ramp and two high-speed cars.",
         "category": "Cars",
-        "sub_category": "Launchers"
+        "sub_category": "Racing"
       },
       {
         "toy_name": "Convertible Cruiser",
+        "img": "https://img.freepik.com/free-vector/white-convertible-car-isolated-white-vector_53876-66815.jpg?w=1060&t=st=1684413751~exp=1684414351~hmac=d132315ec641021915aae79dfeb50a8d334169d20812a2dbf63b8746e1b477f7",
         "seller_name": "Fun Wheels",
         "price": 21.99,
         "quantity": 15,
@@ -121,6 +133,7 @@
       },
       {
         "toy_name": "Monster Jam Truck",
+        "img": "https://img.freepik.com/premium-vector/off-road-jeep-hand-drawn-vector-clip-art-illustration_518698-276.jpg?w=900",
         "seller_name": "Epic Toys",
         "price": 32.99,
         "quantity": 8,
@@ -131,6 +144,7 @@
       },
       {
         "toy_name": "Track Builder Set",
+        "img": "https://img.freepik.com/free-vector/vector-construction-icons-set-bulldozer-machinery-truckload-crane-excavator-mixer_1284-46158.jpg?w=900&t=st=1684413889~exp=1684414489~hmac=5a182135aabe00c0e0cf2851e1d78de848c213f5f17752ecb599f233bca08705",
         "seller_name": "Speedway Toys",
         "price": 49.99,
         "quantity": 5,
@@ -141,6 +155,7 @@
       },
       {
         "toy_name": "Police Pursuit Car",
+        "img": "https://img.freepik.com/premium-vector/retro-police-cars-set_8276-268.jpg?w=826",
         "seller_name": "CopShop Toys",
         "price": 17.99,
         "quantity": 20,
@@ -151,6 +166,7 @@
       },
       {
         "toy_name": "Dump Truck",
+        "img": "https://img.freepik.com/free-vector/vector-yellow-dump-truck-unloading-side-view-illustration-isolated-white-background_8130-972.jpg?w=900&t=st=1684413970~exp=1684414570~hmac=0646d0c9af5552798886d73bbe51f0d784be5d62e9a918554e0b1a6dde56eb3b",
         "seller_name": "Mighty Haulers",
         "price": 24.99,
         "quantity": 12,
@@ -161,6 +177,7 @@
       },
       {
         "toy_name": "Stunt Race Track",
+        "img": "https://img.freepik.com/free-photo/motocross-rider-action-motocross-sport_654080-1662.jpg?w=1060&t=st=1684414034~exp=1684414634~hmac=44a8d43aecc6bc097c4bf5748b8247baa27edb3f8723e21bf4e4b15d7b78bdf1",
         "seller_name": "Thrill Seekers",
         "price": 39.99,
         "quantity": 10,
@@ -171,6 +188,7 @@
       },
       {
         "toy_name": "Rescue Helicopter",
+        "img": "https://img.freepik.com/premium-vector/ambulance-helicopter-red-medical-evacuation-helicopter-isolated-green-background-transportation-emergency-emergency-services-vector-illustration-flat-style_8124-63.jpg?w=996",
         "seller_name": "Rescue Heroes",
         "price": 29.99,
         "quantity": 15,
@@ -181,6 +199,7 @@
       },
       {
         "toy_name": "Off-Road Buggy",
+        "img": "https://img.freepik.com/free-vector/cartoon-cute-animal-drive-car-road-animal-driver_1150-48238.jpg?w=996&t=st=1684414291~exp=1684414891~hmac=e5f3f96611aa83270ab7ebe56e59677856611879aaffbf20092ff4909ab2d668",
         "seller_name": "Extreme Toys",
         "price": 39.99,
         "quantity": 20,
@@ -191,6 +210,7 @@
       },
       {
         "toy_name": "Race Car Track Set",
+        "img": "https://img.freepik.com/free-vector/various-shapes-roads-collection_52683-76076.jpg?w=1060&t=st=1684414831~exp=1684415431~hmac=5243979c3e845354bf2ca70c4e23a86f91d7a4caef9e24ba951a956e0113be4d",
         "seller_name": "Speedster Racing",
         "price": 59.99,
         "quantity": 10,
@@ -201,6 +221,7 @@
       },
       {
         "toy_name": "Police Motorcycle",
+        "img": "https://img.freepik.com/premium-vector/police-officer-character-sitting-motorcycle-flat-cartoon-illustration_133260-1850.jpg?w=826",
         "seller_name": "CopShop Toys",
         "price": 19.99,
         "quantity": 15,
@@ -211,6 +232,7 @@
       },
       {
         "toy_name": "Monster Truck Arena",
+        "img": "https://img.freepik.com/premium-vector/blue-big-truck-road-race_169137-1156.jpg?w=996",
         "seller_name": "Monster Madness",
         "price": 69.99,
         "quantity": 5,
@@ -221,6 +243,7 @@
       },
       {
         "toy_name": "Classic Vintage Car",
+        "img": "https://img.freepik.com/free-vector/hand-drawn-muscle-car-illustration_23-2149432255.jpg?w=996&t=st=1684414727~exp=1684415327~hmac=fde42bf4326f7ad1e155034a7f8b7d72a142682e1860f8cf2e42673e071f637f",
         "seller_name": "Retro Wheels",
         "price": 49.99,
         "quantity": 8,
@@ -231,6 +254,7 @@
       },
       {
         "toy_name": "Tow Truck",
+        "img": "https://img.freepik.com/premium-vector/tow-truck-illustration-tow-truck-towing-service-concept_148087-271.jpg?w=826",
         "seller_name": "Rescue Heroes",
         "price": 24.99,
         "quantity": 12,
@@ -240,17 +264,8 @@
         "sub_category": "Utility"
       },
       {
-        "toy_name": "Race Car Driver Costume",
-        "seller_name": "Dress-Up World",
-        "price": 29.99,
-        "quantity": 10,
-        "rating": 4.6,
-        "description": "A race car driver costume set including a jumpsuit, helmet, and racing accessories.",
-        "category": "Costumes",
-        "sub_category": "Race Car Driver"
-      },
-      {
         "toy_name": "Fire Engine",
+        "img": "https://img.freepik.com/premium-vector/fire-truck-drives-towards-burning-apartment-building-vector-illustration_357257-1068.jpg?w=1060",
         "seller_name": "Rescue Heroes",
         "price": 34.99,
         "quantity": 15,
@@ -260,17 +275,8 @@
         "sub_category": "Fire"
       },
       {
-        "toy_name": "Race Car Garage",
-        "seller_name": "Speedway Toys",
-        "price": 49.99,
-        "quantity": 10,
-        "rating": 4.7,
-        "description": "A race car garage playset with multiple levels, ramps, and a car lift for maintenance.",
-        "category": "Playsets",
-        "sub_category": "Garages"
-      },
-      {
         "toy_name": "RC Monster Truck",
+        "img": "https://img.freepik.com/free-photo/chrome-sports-car-driving-asphalt-road-generative-ai_188544-8146.jpg?w=996&t=st=1684414590~exp=1684415190~hmac=6be07771bd6c681432b2ac7f27a6acfa8d308f6a4ab39d8b917019968401cbed",
         "seller_name": "Thrill Seekers",
         "price": 59.99,
         "quantity": 8,
@@ -281,6 +287,7 @@
       },
       {
         "toy_name": "Car Carrier Trailer",
+        "img": "https://img.freepik.com/free-vector/towing-car-with-automobile-set_1150-43124.jpg?w=996&t=st=1684414550~exp=1684415150~hmac=3db8146f04c0f9f28195acb15f8d928a46a89c62346e1deea95beda5fa8d97e7",
         "seller_name": "Transporter Toys",
         "price": 34.99,
         "quantity": 15,
@@ -291,6 +298,7 @@
       },
       {
         "toy_name": "Ambulance",
+        "img": "https://img.freepik.com/premium-photo/ambulance-wood-table-health-care-medical-concept-3d-rendering_35719-3381.jpg?w=1060",
         "seller_name": "Rescue Heroes",
         "price": 19.99,
         "quantity": 20,
@@ -301,6 +309,7 @@
       },
       {
         "toy_name": "City Road Playmat",
+        "img": "https://img.freepik.com/free-photo/top-view-kid-playing-with-train-tracks_23-2147615837.jpg?w=996&t=st=1684414457~exp=1684415057~hmac=111fe4a7f3c142ca962fee97173248f82ea401a4a03ac9c965d7e67187246237",
         "seller_name": "Imaginative Play",
         "price": 14.99,
         "quantity": 30,
@@ -311,6 +320,7 @@
       },
       {
         "toy_name": "Police Helicopter",
+        "img": "https://img.freepik.com/premium-vector/police-helicopter-vector-3d-illustration_443748-1275.jpg?w=900",
         "seller_name": "CopShop Toys",
         "price": 29.99,
         "quantity": 15,
@@ -321,6 +331,7 @@
       },
       {
         "toy_name": "Car Wash Playset",
+        "img": "https://img.freepik.com/free-photo/yellow-toy-truck-yard_181624-28412.jpg?w=996&t=st=1684414384~exp=1684414984~hmac=9a1bb0fadb8c8e33058abf27ebc8b5b5fd8bba67a3653b92519c81a9747955d2",
         "seller_name": "Splash & Shine",
         "price": 39.99,
         "quantity": 10,
@@ -331,6 +342,7 @@
       },
       {
         "toy_name": "Delivery Truck",
+        "img": "https://img.freepik.com/premium-photo/truck-with-gifts-boxes_300903-617.jpg?w=1060",
         "seller_name": "Tiny Deliveries",
         "price": 24.99,
         "quantity": 12,
