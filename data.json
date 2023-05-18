@@ -1,0 +1,342 @@
+[
+    {
+      "toy_name": "Remote Control Car",
+      "seller_name": "Toy Universe",
+      "price": 29.99,
+      "quantity": 25,
+      "rating": 4.5,
+      "description": "A high-speed remote control car with responsive controls and durable construction.",
+      "category": "Cars",
+      "sub_category": "Remote Control"
+    },
+    {
+      "toy_name": "Pullback Racing Cars",
+      "seller_name": "Toylandia",
+      "price": 12.99,
+      "quantity": 50,
+      "rating": 4.0,
+      "description": "Set of 4 pullback racing cars with sleek designs and smooth pullback action.",
+      "category": "Cars",
+      "sub_category": "Pullback"
+    },
+    {
+      "toy_name": "Construction Truck Set",
+      "seller_name": "Tiny Builders",
+      "price": 19.99,
+      "quantity": 18,
+      "rating": 4.2,
+      "description": "A set of construction trucks including a bulldozer, crane, and dump truck.",
+      "category": "Trucks",
+      "sub_category": "Construction"
+    },
+    {
+      "toy_name": "Monster Truck",
+      "seller_name": "Super Toys",
+      "price": 34.99,
+      "quantity": 10,
+      "rating": 4.8,
+      "description": "A powerful monster truck with oversized wheels and impressive off-road capabilities.",
+      "category": "Trucks",
+      "sub_category": "Monster"
+    },
+    {
+      "toy_name": "Formula Racing Car",
+      "seller_name": "Speedster Toys",
+      "price": 49.99,
+      "quantity": 5,
+      "rating": 4.9,
+      "description": "A high-performance formula racing car with aerodynamic design and realistic details.",
+      "category": "Cars",
+      "sub_category": "Racing"
+    },
+    {
+      "toy_name": "Convertible Sports Car",
+      "seller_name": "Fun Wheels",
+      "price": 24.99,
+      "quantity": 12,
+      "rating": 4.3,
+      "description": "A sleek and stylish convertible sports car with opening doors and removable roof.",
+      "category": "Cars",
+      "sub_category": "Sports"
+    },
+    {
+      "toy_name": "Off-Road Adventure Truck",
+      "seller_name": "Adventure Toys",
+      "price": 39.99,
+      "quantity": 8,
+      "rating": 4.7,
+      "description": "An off-road adventure truck with rugged tires, suspension, and working headlights.",
+      "category": "Trucks",
+      "sub_category": "Off-Road"
+    },
+    {
+      "toy_name": "Race Track Playset",
+      "seller_name": "TrackMaster",
+      "price": 59.99,
+      "quantity": 3,
+      "rating": 4.6,
+      "description": "A complete race track playset with loops, curves, and two racing cars.",
+      "category": "Playsets",
+      "sub_category": "Race Tracks"
+    },
+    {
+      "toy_name": "Police Car Set",
+      "seller_name": "CopShop Toys",
+      "price": 14.99,
+      "quantity": 15,
+      "rating": 4.1,
+      "description": "A set of police cars with sirens, lights, and police figures for exciting role play.",
+      "category": "Cars",
+      "sub_category": "Police"
+    },
+    {
+      "toy_name": "Fire Truck",
+      "seller_name": "Rescue Heroes",
+      "price": 19.99,
+      "quantity": 20,
+      "rating": 4.4,
+      "description": "A fire truck with extendable ladder, realistic sounds, and water squirting action.",
+      "category": "Trucks",
+      "sub_category": "Fire"
+    },
+    {
+        "toy_name": "Race Car Launcher",
+        "seller_name": "Speed Masters",
+        "price": 14.99,
+        "quantity": 30,
+        "rating": 4.7,
+        "description": "A race car launcher set with a starting ramp and two high-speed cars.",
+        "category": "Cars",
+        "sub_category": "Launchers"
+      },
+      {
+        "toy_name": "Convertible Cruiser",
+        "seller_name": "Fun Wheels",
+        "price": 21.99,
+        "quantity": 15,
+        "rating": 4.3,
+        "description": "A convertible cruiser toy car with opening doors and working headlights.",
+        "category": "Cars",
+        "sub_category": "Sports"
+      },
+      {
+        "toy_name": "Monster Jam Truck",
+        "seller_name": "Epic Toys",
+        "price": 32.99,
+        "quantity": 8,
+        "rating": 4.5,
+        "description": "A monster jam truck toy with large wheels, authentic details, and roaring sound effects.",
+        "category": "Trucks",
+        "sub_category": "Monster"
+      },
+      {
+        "toy_name": "Track Builder Set",
+        "seller_name": "Speedway Toys",
+        "price": 49.99,
+        "quantity": 5,
+        "rating": 4.8,
+        "description": "A track builder set with flexible tracks, connectors, and accessories for endless racing fun.",
+        "category": "Playsets",
+        "sub_category": "Track Builders"
+      },
+      {
+        "toy_name": "Police Pursuit Car",
+        "seller_name": "CopShop Toys",
+        "price": 17.99,
+        "quantity": 20,
+        "rating": 4.6,
+        "description": "A police pursuit car with lights, sounds, and realistic police car features.",
+        "category": "Cars",
+        "sub_category": "Police"
+      },
+      {
+        "toy_name": "Dump Truck",
+        "seller_name": "Mighty Haulers",
+        "price": 24.99,
+        "quantity": 12,
+        "rating": 4.2,
+        "description": "A dump truck toy with a working dump bed, sturdy construction, and realistic detailing.",
+        "category": "Trucks",
+        "sub_category": "Construction"
+      },
+      {
+        "toy_name": "Stunt Race Track",
+        "seller_name": "Thrill Seekers",
+        "price": 39.99,
+        "quantity": 10,
+        "rating": 4.7,
+        "description": "A stunt race track set with loops, jumps, and a race car for thrilling stunts and action.",
+        "category": "Playsets",
+        "sub_category": "Race Tracks"
+      },
+      {
+        "toy_name": "Rescue Helicopter",
+        "seller_name": "Rescue Heroes",
+        "price": 29.99,
+        "quantity": 15,
+        "rating": 4.4,
+        "description": "A rescue helicopter toy with spinning rotors, rescue winch, and realistic sound effects.",
+        "category": "Vehicles",
+        "sub_category": "Helicopters"
+      },
+      {
+        "toy_name": "Off-Road Buggy",
+        "seller_name": "Extreme Toys",
+        "price": 39.99,
+        "quantity": 20,
+        "rating": 4.6,
+        "description": "An off-road buggy with rugged tires, suspension, and high-speed capabilities.",
+        "category": "Cars",
+        "sub_category": "Off-Road"
+      },
+      {
+        "toy_name": "Race Car Track Set",
+        "seller_name": "Speedster Racing",
+        "price": 59.99,
+        "quantity": 10,
+        "rating": 4.8,
+        "description": "A race car track set with loops, curves, and two racing cars for thrilling competitions.",
+        "category": "Playsets",
+        "sub_category": "Race Tracks"
+      },
+      {
+        "toy_name": "Police Motorcycle",
+        "seller_name": "CopShop Toys",
+        "price": 19.99,
+        "quantity": 15,
+        "rating": 4.3,
+        "description": "A police motorcycle toy with lights, sounds, and realistic police bike features.",
+        "category": "Motorcycles",
+        "sub_category": "Police"
+      },
+      {
+        "toy_name": "Monster Truck Arena",
+        "seller_name": "Monster Madness",
+        "price": 69.99,
+        "quantity": 5,
+        "rating": 4.7,
+        "description": "A monster truck arena playset with ramps, obstacles, and two powerful monster trucks.",
+        "category": "Playsets",
+        "sub_category": "Monster Trucks"
+      },
+      {
+        "toy_name": "Classic Vintage Car",
+        "seller_name": "Retro Wheels",
+        "price": 49.99,
+        "quantity": 8,
+        "rating": 4.5,
+        "description": "A classic vintage car toy with a retro design, shiny exterior, and detailed interior.",
+        "category": "Cars",
+        "sub_category": "Vintage"
+      },
+      {
+        "toy_name": "Tow Truck",
+        "seller_name": "Rescue Heroes",
+        "price": 24.99,
+        "quantity": 12,
+        "rating": 4.2,
+        "description": "A tow truck toy with a functional towing mechanism, sturdy build, and realistic features.",
+        "category": "Trucks",
+        "sub_category": "Utility"
+      },
+      {
+        "toy_name": "Race Car Driver Costume",
+        "seller_name": "Dress-Up World",
+        "price": 29.99,
+        "quantity": 10,
+        "rating": 4.6,
+        "description": "A race car driver costume set including a jumpsuit, helmet, and racing accessories.",
+        "category": "Costumes",
+        "sub_category": "Race Car Driver"
+      },
+      {
+        "toy_name": "Fire Engine",
+        "seller_name": "Rescue Heroes",
+        "price": 34.99,
+        "quantity": 15,
+        "rating": 4.4,
+        "description": "A fire engine toy with flashing lights, realistic sounds, and extendable ladder.",
+        "category": "Trucks",
+        "sub_category": "Fire"
+      },
+      {
+        "toy_name": "Race Car Garage",
+        "seller_name": "Speedway Toys",
+        "price": 49.99,
+        "quantity": 10,
+        "rating": 4.7,
+        "description": "A race car garage playset with multiple levels, ramps, and a car lift for maintenance.",
+        "category": "Playsets",
+        "sub_category": "Garages"
+      },
+      {
+        "toy_name": "RC Monster Truck",
+        "seller_name": "Thrill Seekers",
+        "price": 59.99,
+        "quantity": 8,
+        "rating": 4.8,
+        "description": "A powerful remote control monster truck with large wheels and all-terrain capabilities.",
+        "category": "Cars",
+        "sub_category": "Remote Control"
+      },
+      {
+        "toy_name": "Car Carrier Trailer",
+        "seller_name": "Transporter Toys",
+        "price": 34.99,
+        "quantity": 15,
+        "rating": 4.3,
+        "description": "A car carrier trailer toy with multiple levels, ramps, and space for multiple cars.",
+        "category": "Playsets",
+        "sub_category": "Transporters"
+      },
+      {
+        "toy_name": "Ambulance",
+        "seller_name": "Rescue Heroes",
+        "price": 19.99,
+        "quantity": 20,
+        "rating": 4.4,
+        "description": "An ambulance toy with flashing lights, siren sounds, and opening rear doors.",
+        "category": "Trucks",
+        "sub_category": "Emergency"
+      },
+      {
+        "toy_name": "City Road Playmat",
+        "seller_name": "Imaginative Play",
+        "price": 14.99,
+        "quantity": 30,
+        "rating": 4.6,
+        "description": "A city road playmat with a printed road network, intersections, and buildings for imaginative play.",
+        "category": "Playsets",
+        "sub_category": "Playmats"
+      },
+      {
+        "toy_name": "Police Helicopter",
+        "seller_name": "CopShop Toys",
+        "price": 29.99,
+        "quantity": 15,
+        "rating": 4.5,
+        "description": "A police helicopter toy with spinning rotors, searchlight, and realistic sound effects.",
+        "category": "Vehicles",
+        "sub_category": "Helicopters"
+      },
+      {
+        "toy_name": "Car Wash Playset",
+        "seller_name": "Splash & Shine",
+        "price": 39.99,
+        "quantity": 10,
+        "rating": 4.7,
+        "description": "A car wash playset with a working conveyor belt, brushes, and water spray features.",
+        "category": "Playsets",
+        "sub_category": "Car Wash"
+      },
+      {
+        "toy_name": "Delivery Truck",
+        "seller_name": "Tiny Deliveries",
+        "price": 24.99,
+        "quantity": 12,
+        "rating": 4.2,
+        "description": "A delivery truck toy with opening cargo doors and removable packages.",
+        "category": "Trucks",
+        "sub_category": "Delivery"
+      }
+  ]
