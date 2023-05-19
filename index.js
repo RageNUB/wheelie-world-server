@@ -27,37 +27,54 @@ async function run() {
     const toyCollection = client.db("wheelieworld").collection("toyCollections");
     // const myToyCollection = client.db("wheelieworld").collection("mytoycollection")
 
-    app.get("/products", async(req, res) => {
-        const result = await toyCollection.find().toArray();
-        res.send(result);
+    app.get("/products", async (req, res) => {
+      const result = await toyCollection.find().toArray();
+      res.send(result);
     })
 
-    app.get("/products/:id", async(req, res) => {
+    app.get("/products/:id", async (req, res) => {
       const id = req.params.id;
-      const query = { _id: new ObjectId(id)};
+      const query = { _id: new ObjectId(id) };
       const result = await toyCollection.findOne(query);
       res.send(result);
     })
 
-    app.get("/myToys", async(req, res) => {
+    app.get("/myToys", async (req, res) => {
       let query = {};
-      console.log(req.query.email);
-      if(req.query?.email){
-        query = {seller_email: req.query.email}
+      if (req.query?.email) {
+        query = { seller_email: req.query.email }
       }
       const result = await toyCollection.find(query).toArray();
       res.send(result);
     })
-    
-    app.post("/myToys", async(req, res) => {
+
+    app.post("/myToys", async (req, res) => {
       const myToy = req.body;
       const result = await toyCollection.insertOne(myToy);
       res.send(result);
+    });
+
+    app.put("/myToys/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+      const updatedToy = req.body;
+      console.log(id, updatedToy)
+      const toy = {
+        $set: {
+          img: updatedToy.photo,
+          price: updatedToy.price,
+          quantity: updatedToy.quantity,
+          description: updatedToy.details
+        }
+      }
+      const result = await toyCollection.updateOne(filter, toy, options);
+      res.send(result);
     })
 
-    app.delete("/myToys/:id", async(req, res) => {
+    app.delete("/myToys/:id", async (req, res) => {
       const id = req.params.id;
-      const query = { _id: new ObjectId(id)};
+      const query = { _id: new ObjectId(id) };
       const result = await toyCollection.deleteOne(query);
       res.send(result);
     })
@@ -74,9 +91,9 @@ run().catch(console.dir);
 
 
 app.get("/", (req, res) => {
-    res.send("Wheelie World server is running");
+  res.send("Wheelie World server is running");
 })
 
 app.listen(port, () => {
-    console.log(`Wheelie World server is running on port: ${port}`);
+  console.log(`Wheelie World server is running on port: ${port}`);
 })
