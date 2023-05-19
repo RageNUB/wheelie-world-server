@@ -24,8 +24,8 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
-    const toyCollection = client.db("wheelieworld").collection("toycollection");
-    const myToyCollection = client.db("wheelieworld").collection("mytoycollection")
+    const toyCollection = client.db("wheelieworld").collection("toyCollections");
+    // const myToyCollection = client.db("wheelieworld").collection("mytoycollection")
 
     app.get("/products", async(req, res) => {
         const result = await toyCollection.find().toArray();
@@ -39,9 +39,19 @@ async function run() {
       res.send(result);
     })
 
+    app.get("/myToys", async(req, res) => {
+      let query = {};
+      console.log(req.query.email);
+      if(req.query?.email){
+        query = {seller_email: req.query.email}
+      }
+      const result = await toyCollection.find(query).toArray();
+      res.send(result);
+    })
+    
     app.post("/myToys", async(req, res) => {
       const myToy = req.body;
-      const result = await myToyCollection.insertOne(myToy);
+      const result = await toyCollection.insertOne(myToy);
       res.send(result);
     })
 
