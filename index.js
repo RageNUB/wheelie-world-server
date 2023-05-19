@@ -59,7 +59,6 @@ async function run() {
       const filter = { _id: new ObjectId(id) };
       const options = { upsert: true };
       const updatedToy = req.body;
-      console.log(id, updatedToy)
       const toy = {
         $set: {
           img: updatedToy.photo,
