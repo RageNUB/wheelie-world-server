@@ -25,6 +25,7 @@ async function run() {
     await client.connect();
 
     const toyCollection = client.db("wheelieworld").collection("toycollection");
+    const myToyCollection = client.db("wheelieworld").collection("mytoycollection")
 
     app.get("/products", async(req, res) => {
         const result = await toyCollection.find().toArray();
@@ -35,6 +36,12 @@ async function run() {
       const id = req.params.id;
       const query = { _id: new ObjectId(id)};
       const result = await toyCollection.findOne(query);
+      res.send(result);
+    })
+
+    app.post("/myToys", async(req, res) => {
+      const myToy = req.body;
+      const result = await myToyCollection.insertOne(myToy);
       res.send(result);
     })
 
