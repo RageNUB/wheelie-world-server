@@ -27,8 +27,26 @@ async function run() {
     const toyCollection = client.db("wheelieworld").collection("toysCollections");
 
     app.get("/products", async (req, res) => {
-      const result = await toyCollection.find().toArray();
-      res.send(result);
+      const query = {}
+      const limit = 20;
+      const page = parseInt(req.query?.page) || 1;
+      const skip = (page - 1) * limit;
+      console.log(req.query)
+      const ascendingSort = {
+        sort: {price: 1}
+      }
+      const descendingSort = {
+        sort: {price: -1}
+      }
+      if(req.query?.sort == 1){
+        const result = await toyCollection.find(query, ascendingSort).skip(skip).limit(limit).toArray();
+        res.send(result);
+      } else {
+        const result = await toyCollection.find(query,descendingSort).skip(skip).limit(limit).toArray();
+        res.send(result);
+      }
+      // const result = await toyCollection.find(query,options).toArray();
+      //   res.send(result);
     })
 
     app.get("/products/:id", async (req, res) => {
